@@ -10,6 +10,61 @@
             <header class="header"></header>
             <p id="description">Please Take a Few Moments to Complete the Form Below</p>
         </div>
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+                type="text"
+                name="name"
+                id="name"
+                class="form-control"
+                placeholder="Name your floof"
+                required
+            />
+        </div>
+
+        <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+                placeholder="Owner floof email"
+                required
+            />
+        </div>
+
+        <div class="form-group">
+            <label id="number-label" for="number">Age<span class="clue">(optional)</span></label
+            >
+            <input
+                type="number"
+                name="age"
+                id="number"
+                min="1"
+                max="99"
+                class="form-control"
+                placeholder="Cat years"
+            />
+        </div>
+
+        <div class="form-group">
+            <p>Which breed describes you best?</p>
+            <select id="dropdown" name="breed" class="form-control" required>
+                <option disabled selected value>Lowely hooman</option>
+                <option value="Tabby">Tabby</option>
+                <option value="Bengal">Bengal</option>
+                <option value="Russian-blue">Russian Blue</option>
+                <option value="Siberian">Siberian</option>
+                <option value="Siamese">Siamese</option>
+                <option value="Sphinx">Sphinx</option>
+                <option values="Maincoon">Maincoon</option>
+                <option values="Anonomous">Anonomous Floof</option>
+                <option values="Other">Other</option>
+            </select>
+        </div>
+        </form>
 
     </body>    
 
