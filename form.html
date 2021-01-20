@@ -4,12 +4,10 @@
     </head>
    
     <h1 id="Title">Magnificant Floof Survey Form</h1>
-   
-    <body>
-        <div class="container">
-            <header class="header"></header>
-            <p id="description">Please Take a Few Moments to Complete the Form Below</p>
-        </div>
+    <p id="description">Please Take a Few Moments to Complete the Form Below</p>
+    
+    <div class="container">
+
     <form id="survey-form">
         <div class="form-group">
             <label id="name-label" for="name">Name</label>
@@ -64,9 +62,29 @@
                 <option values="Other">Other</option>
             </select>
         </div>
-        </form>
 
-    </body>    
+        <div class="form-group">
+            <p>What is your favourite pet?</p>
+            <label>
+                <input
+                    name="favourite-pet"
+                    value="Cat"
+                    type="radio"
+                    class="input-radio"
+                    checked
+                />Cat
+            </label>
+           
+            <label>
+                <input 
+                    name="favourite-pet"
+                    value="cat"
+                    type="radio"
+                    class="input-radio"
+                />Cat
+            </label>
 
-   
+        </div>
+    </form>
+    </div>  
 </main>
