@@ -3,6 +3,7 @@
     --color-white: #ced4da;
     --color-light-grey: rgb(170, 170, 170); 
     --color-black: rgb(31, 31, 31); 
+    --color-transparent-black: rgba(0, 0, 0, 0.589);
 }
 
 ::placeholder {
@@ -51,7 +52,10 @@ p {
 .container {
     width: 40%;
     margin: 2.5em auto 0 auto;
+    padding: 10px 50px 10px 50px;
+    border-radius: 0.75em;
     text-align: center;
+    background-color: var(--color-transparent-black);
 }
 
 .form-control {
