@@ -78,13 +78,16 @@ p {
     padding: 0.5em 0 0.5em 0;
     margin: 0;
 }
-   
 
 .input-radio {
-    display: block;
+    display: flexbox;
+}
+
+label {
+    font-size: 0.8em;
 }
 
 .input-checkbox {
-    display: block;
-    font-size: 0.9em;
+    display: block;    
 }
+
